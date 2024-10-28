@@ -151,3 +151,46 @@ table, tr, td{
     font-size: 16px;
     font-weight: 300;
 }
+
+.agents{
+    margin-top: 25px;
+    width: 100%;
+    height: auto;
+    padding: 35px 0px;
+}
+.agents h2{
+    margin-bottom: 20px;
+    color: #f69314;
+    font-size: 50px;
+    font-weight: 500;
+}
+.bigDescription{
+    margin-bottom: 60px;
+    width: 600px;
+    color: #777;
+    line-height: 35px;
+    font-family: "Roboto", "Helvetica", "Sans-serif";
+    font-size: 22px;
+}
+.agentContainer{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+.agent{
+    background-color: #f0f0f0;
+    margin-bottom: 30px;
+    width: 30%
+}
+.agent h3{
+    margin-top: 10px;
+    padding-left: 20px;
+    font-size: 25px;
+    font-weight: 500;
+}
+.agent p{
+    margin-bottom: 20px;
+    padding-left: 20px;
+    color: #777;
+    font-family: "Roboto", "Helvetica", "Sans-serif";
+}

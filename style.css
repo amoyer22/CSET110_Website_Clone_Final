@@ -3,3 +3,28 @@
     margin: 0;
     padding: 0;
 }
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: gray;
+    padding: 30px 70px;
+    width: 100%;
+}
+header a{
+    color: white;
+    text-decoration: none;
+}
+#logo{
+    font-family: "Roboto", "Helvetica", "Sans-serif";
+    font-size: 26px;
+    font-weight: 600;
+}
+#navLinks{
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
+    list-style-type: none;
+    font-family: "Roboto", "Helvetica", "Sans-serif";
+}

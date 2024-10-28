@@ -13,14 +13,12 @@ header{
     padding: 35px 160px;
     width: 100%;
 }
-header a{
-    color: white;
-    text-decoration: none;
-}
 #logo{
     font-family: "Roboto", "Helvetica", "Sans-serif";
     font-size: 26px;
     font-weight: 600;
+    color: white;
+    text-decoration: none;
 }
 #navLinks{
     display: flex;
@@ -28,6 +26,10 @@ header a{
     width: 40%;
     list-style-type: none;
     font-family: "Roboto", "Helvetica", "Sans-serif";
+}
+#navLinks a{
+    color: white;
+    text-decoration: none;
 }
 
 .hero{
@@ -263,7 +265,42 @@ table, tr, td{
 }
 .div0{
     display: flex;
+    justify-content: space-around;
 }
 .div1{
+    margin-bottom: 30px;
     display: flex;
+    width: 25%;
+}
+.iconContainer{
+    margin-right: 20px;
+}
+.serviceDescription h3, p{
+    color: #777;
+    text-align: left;
+    font-family: "Roboto", "Helvetica", "Sans-serif";
+    font-size: 16px;
+}
+.serviceDescription h3{
+    margin-bottom: 10px;
+    font-family: "Roboto", "Helvetica", "Sans-serif";
+    font-size: 22px;
+    font-weight: 300; 
+}
+.serviceDescription p{
+    line-height: 30px;
+}
+.learnMore{
+    margin-top: 20px;
+    text-align: left;
+    font-family: "Roboto", "Helvetica", "Sans-serif";
+    font-size: 16px;
+}
+.learnMore a{
+    text-align: left;
+    text-decoration: none;
+    color: #f69314;
+}
+.learnMore a:hover{
+    text-decoration: underline;
 }

@@ -119,6 +119,8 @@ table, tr, td{
     border-collapse: collapse;
     padding: 5px 0px;
     color: #777;
+    font-family: "Roboto", "Helvetica", "Sans-serif";
+    font-size: 14px;
 }
 #td1{
     padding-right: 12px;
@@ -134,6 +136,8 @@ table, tr, td{
 #address{
     margin: 20px 10px;
     color: #777;
+    font-family: "Roboto", "Helvetica", "Sans-serif";
+    font-size: 14px;
 }
 .propertyButton{
     margin: auto;

@@ -252,6 +252,7 @@ table, tr, td{
 
 .services{
     background-color: #f8f9fa;
+    border-bottom: 1px solid #dee2e6;
     width: 100%;
     height: auto;
     padding: 50px 0px;
@@ -303,4 +304,41 @@ table, tr, td{
 }
 .learnMore a:hover{
     text-decoration: underline;
+}
+
+.testimonials{
+    width: 100%;
+    height: auto;
+    padding: 150px 0px;
+    text-align: center;
+}
+.testimonials h2{
+    margin-bottom: 40px;
+    color: #f69314;
+    font-size: 50px;
+    font-weight: 500;
+}
+#clientQuote{
+    margin: auto;
+    margin-bottom: 50px;
+    width: 62%;
+    color: #777;
+    line-height: 40px;
+    font-family: "Roboto", "Helvetica", "Sans-serif";
+    font-size: 24px;
+    font-style: italic;
+}
+.clientInfo{
+    display: flex;
+    justify-content: center;
+}
+#photo{
+    margin-right: 20px;
+    width: 60px;
+    border-radius: 30px;
+}
+.clientName{
+    color: #777;
+    font-family: "Roboto", "Helvetica", "Sans-serif";
+    font-size: 18px;
 }

@@ -161,6 +161,7 @@ table, tr, td{
     width: 100%;
     height: auto;
     padding: 35px 0px;
+    border-bottom: 1px solid #ccc;
 }
 .agents h2{
     margin-bottom: 20px;
@@ -197,4 +198,52 @@ table, tr, td{
     padding-left: 20px;
     color: #777;
     font-family: "Roboto", "Helvetica", "Sans-serif";
+}
+
+.theBest{
+    width: 100%;
+    height: auto;
+    padding: 35px 0px;
+}
+.theBest h2{
+    margin-bottom: 20px;
+    color: #f69314;
+    font-size: 50px;
+    font-weight: 500;
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+}
+.imageContainer{
+    width: 60%;
+}
+.description{
+    width: 40%;
+    color: #777;
+}
+.description p{
+    margin-bottom: 20px;
+    line-height: 30px;
+    font-family: "Roboto", "Helvetica", "Sans-serif";
+}
+.description ul{
+    margin-bottom: 50px;
+    padding-left: 20px;
+    font-family: "Roboto", "Helvetica", "Sans-serif";
+}
+.description li{
+    margin-bottom: 20px;
+    font-family: "Roboto", "Helvetica", "Sans-serif";
+}
+.learnMoreButton button{
+    background-color: #f69314;
+    width: 150px;
+    height: 40px;
+    color: white;
+    border-color: transparent;
+    border-radius: 50px;
+    font-family: "Roboto", "Helvetica", "Sans-serif";
+    font-size: 16px;
+    font-weight: 300;
 }

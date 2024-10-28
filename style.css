@@ -179,7 +179,7 @@ table, tr, td{
 }
 .agentContainer{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     width: 100%;
 }
 .agent{
@@ -246,4 +246,24 @@ table, tr, td{
     font-family: "Roboto", "Helvetica", "Sans-serif";
     font-size: 16px;
     font-weight: 300;
+}
+
+.services{
+    background-color: #f8f9fa;
+    width: 100%;
+    height: auto;
+    padding: 50px 0px;
+    text-align: center;
+}
+.services h2{
+    margin-bottom: 20px;
+    color: #f69314;
+    font-size: 50px;
+    font-weight: 500;
+}
+.div0{
+    display: flex;
+}
+.div1{
+    display: flex;
 }

@@ -275,7 +275,7 @@ table, tr, td{
 .iconContainer{
     margin-right: 20px;
 }
-.serviceDescription h3, p{
+.serviceDescription h3, .serviceDescription p{
     color: #777;
     text-align: left;
     font-family: "Roboto", "Helvetica", "Sans-serif";

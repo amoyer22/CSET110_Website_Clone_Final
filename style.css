@@ -9,9 +9,10 @@ header{
     justify-content: space-between;
     align-items: center;
     position: fixed;
-    background-color: gray;
+    background-color: #484D53;
     padding: 35px 160px;
     width: 100%;
+    border-bottom: 1px solid #5B5F65;
 }
 #logo{
     font-family: "Roboto", "Helvetica", "Sans-serif";
@@ -36,7 +37,7 @@ header{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #333;
+    background-color: #484D53;
     width: 100%;
     height: 700px;
     color: white;
@@ -86,6 +87,7 @@ header{
     font-weight: 300;
 }
 .how p{
+    margin-top: 10px;
     color: #777;
 }
 #icon{
@@ -363,9 +365,57 @@ table, tr, td{
 }
 .contactForm{
     background-color: white;
-    padding: 25px;
+    padding: 50px;
     width: 60%;
     text-align: left;
+}
+.contactForm h3{
+    margin-bottom: 30px;
+    font-size: 24px;
+    font-weight: 300;
+}
+.contactForm label{
+    margin-bottom: 5px;
+    display: block;
+    font-family: "Roboto", "Helvetica", "Sans-serif";
+    font-size: 16px;
+}
+.contactForm input{
+    margin-bottom: 20px;
+    width: 100%;
+    border: 1px solid #ced4da;
+    border-radius: 30px;
+}
+.contactForm input[type=text]{
+    padding: 15px;
+    color: #495057;
+    font-family: "Roboto", "Helvetica", "Sans-serif";
+    font-size: 16px;
+}
+.contactForm textarea{
+    resize: none;
+    margin-bottom: 20px;
+    padding: 15px;
+    width: 100%;
+    height: 170px;
+    border: 1px solid #ced4da;
+    border-radius: 30px;
+    font-family: "Roboto", "Helvetica", "Sans-serif";
+    font-size: 16px;
+}
+.contactForm input[type=textarea]{
+    color: #495057;
+}
+#sendMessage{
+    background-color: #f69314;
+    width: 160px;
+    height: 40px;
+    color: white;
+    border-color: transparent;
+    border-radius: 50px;
+    font-family: "Roboto", "Helvetica", "Sans-serif";
+    font-size: 16px;
+    font-weight: 300;
 }
 .contactInformation{
     background-color: white;

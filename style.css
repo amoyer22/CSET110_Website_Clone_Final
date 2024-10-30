@@ -29,8 +29,12 @@ header{
     font-family: "Roboto", "Helvetica", "Sans-serif";
 }
 #navLinks a{
-    color: white;
+    color: #999;
     text-decoration: none;
+    transition: color 0.4s;
+}
+#navLinks a:hover{
+    color: white;
 }
 
 .hero{
@@ -487,6 +491,7 @@ footer h4{
 .footerQuickLinks a{
     color: #777;
     text-decoration: none;
+    transition: color 0.4s;
 }
 .footerQuickLinks a:hover{
     color: white;
@@ -512,6 +517,7 @@ footer h4{
     border: 1px solid #ced4da;
     border-top-right-radius: 30px;
     border-bottom-right-radius: 30px;
+    transition: background-color 0.4s;
 }
 #newsletterButton:hover{
     background-color: white;
@@ -525,10 +531,13 @@ footer h4{
 .footerContainer2{
     margin: 70px 0px;
     text-align: center;
+    font-family: "Roboto", "Helvetica", "Sans-serif";
+    font-size: 16px;
 }
 .footerContainer2 a{
     color: #777;
     text-decoration: none;
+    transition: color 0.4s;
 }
 .footerContainer2 a:hover{
     color: white;

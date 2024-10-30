@@ -1,0 +1,544 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    background-color: #484D53;
+    padding: 35px 160px;
+    width: 100%;
+    border-bottom: 1px solid #5B5F65;
+}
+#logo{
+    font-family: "Roboto", "Helvetica", "Sans-serif";
+    font-size: 26px;
+    font-weight: 600;
+    color: white;
+    text-decoration: none;
+}
+#navLinks{
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
+    list-style-type: none;
+    font-family: "Roboto", "Helvetica", "Sans-serif";
+}
+#navLinks a{
+    color: #999;
+    text-decoration: none;
+    transition: color 0.4s;
+}
+#navLinks a:hover{
+    color: white;
+}
+
+.hero{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #484D53;
+    width: 100%;
+    height: 700px;
+    color: white;
+    text-align: center;
+}
+.heroText{
+    width: 35%;
+}
+.heroText h1{
+    margin-bottom: 10px;
+    font-size: 50px;
+    font-weight: 500;
+}
+.heroText p{
+    line-height: 25px;
+    font-family: "Roboto", "Helvetica", "Sans-serif";
+}
+
+.container{
+    padding: 0px 160px;
+}
+
+.howItWorks{
+    background-color: #f8f9fa;
+    width: 100%;
+    height: auto;
+    padding: 50px 0px;
+    text-align: center;
+}
+.howItWorks h2{
+    margin-bottom: 50px;
+    color: #f69314;
+    font-size: 50px;
+    font-weight: 500;
+}
+.howContainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.how{
+    width: 25%;
+}
+.how h3{
+    margin-bottom: 5px;
+    font-family: "Roboto", "Helvetica", "Sans-serif";
+    font-weight: 300;
+}
+.how p{
+    margin-top: 10px;
+    color: #777;
+}
+#icon{
+    font-size: 35px;
+    color: #f69314;
+}
+
+.properties{
+    width: 100%;
+    height: auto;
+    padding: 35px 0px;
+}
+.properties h2{
+    margin-bottom: 50px;
+    color: #f69314;
+    font-size: 50px;
+    font-weight: 500;
+}
+.propertyContainer{
+    display: flex;
+    justify-content: space-between;
+}
+#price{
+    margin: 20px 10px;
+    font-family: "Roboto", "Helvetica", "Sans-serif";
+    font-size: 20px;
+    font-weight: 600;
+}
+table{
+    margin: 10px;
+}
+table, tr, td{
+    border-collapse: collapse;
+    padding: 5px 0px;
+    color: #777;
+    font-family: "Roboto", "Helvetica", "Sans-serif";
+    font-size: 14px;
+}
+#td1{
+    padding-right: 12px;
+    border-right: 1px solid #777;
+}
+#td2{
+    padding: 0px 12px;
+    border-right: 1px solid #777;
+}
+#td3{
+    padding-left: 12px;
+}
+#address{
+    margin: 20px 10px;
+    color: #777;
+    font-family: "Roboto", "Helvetica", "Sans-serif";
+    font-size: 14px;
+}
+.propertyButton{
+    margin: auto;
+    margin-top: 40px;
+    width: 400px;
+}
+.propertyButton button{
+    background-color: #f69314;
+    width: 350px;
+    height: 40px;
+    color: white;
+    border-color: transparent;
+    border-radius: 50px;
+    font-family: "Roboto", "Helvetica", "Sans-serif";
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.agents{
+    margin-top: 25px;
+    width: 100%;
+    height: auto;
+    padding: 70px 0px;
+    border-bottom: 1px solid #ccc;
+}
+.agents h2{
+    margin-bottom: 20px;
+    color: #f69314;
+    font-size: 50px;
+    font-weight: 500;
+}
+.bigDescription{
+    margin-bottom: 60px;
+    width: 600px;
+    color: #777;
+    line-height: 35px;
+    font-family: "Roboto", "Helvetica", "Sans-serif";
+    font-size: 22px;
+}
+.agentContainer{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.agent{
+    background-color: #f0f0f0;
+    margin-bottom: 30px;
+    width: 30%
+}
+.agent h3{
+    margin-top: 10px;
+    padding-left: 20px;
+    font-size: 25px;
+    font-weight: 500;
+}
+.agent p{
+    margin-bottom: 20px;
+    padding-left: 20px;
+    color: #777;
+    font-family: "Roboto", "Helvetica", "Sans-serif";
+}
+
+.theBest{
+    width: 100%;
+    height: auto;
+    padding: 100px 0px;
+}
+.theBest h2{
+    margin-bottom: 20px;
+    color: #f69314;
+    font-size: 50px;
+    font-weight: 500;
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+}
+.imageContainer{
+    width: 60%;
+}
+.description{
+    width: 40%;
+    color: #777;
+}
+.description p{
+    margin-bottom: 20px;
+    line-height: 30px;
+    font-family: "Roboto", "Helvetica", "Sans-serif";
+}
+.description ul{
+    margin-bottom: 50px;
+    padding-left: 20px;
+    font-family: "Roboto", "Helvetica", "Sans-serif";
+}
+.description li{
+    margin-bottom: 20px;
+    font-family: "Roboto", "Helvetica", "Sans-serif";
+}
+.learnMoreButton button{
+    background-color: #f69314;
+    width: 150px;
+    height: 40px;
+    color: white;
+    border-color: transparent;
+    border-radius: 50px;
+    font-family: "Roboto", "Helvetica", "Sans-serif";
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.services{
+    background-color: #f8f9fa;
+    border-bottom: 1px solid #dee2e6;
+    width: 100%;
+    height: auto;
+    padding: 50px 0px;
+    text-align: center;
+}
+.services h2{
+    margin-bottom: 20px;
+    color: #f69314;
+    font-size: 50px;
+    font-weight: 500;
+}
+.div0{
+    display: flex;
+    justify-content: space-around;
+}
+.div1{
+    margin-bottom: 30px;
+    display: flex;
+    width: 25%;
+}
+.iconContainer{
+    margin-right: 20px;
+}
+.serviceDescription h3, .serviceDescription p{
+    color: #777;
+    text-align: left;
+    font-family: "Roboto", "Helvetica", "Sans-serif";
+    font-size: 16px;
+}
+.serviceDescription h3{
+    margin-bottom: 10px;
+    font-family: "Roboto", "Helvetica", "Sans-serif";
+    font-size: 22px;
+    font-weight: 300; 
+}
+.serviceDescription p{
+    line-height: 30px;
+}
+.learnMore{
+    margin-top: 20px;
+    text-align: left;
+    font-family: "Roboto", "Helvetica", "Sans-serif";
+    font-size: 16px;
+}
+.learnMore a{
+    text-align: left;
+    text-decoration: none;
+    color: #f69314;
+}
+.learnMore a:hover{
+    text-decoration: underline;
+}
+
+.testimonials{
+    width: 100%;
+    height: auto;
+    padding: 150px 0px;
+    text-align: center;
+}
+.testimonials h2{
+    margin-bottom: 40px;
+    color: #f69314;
+    font-size: 50px;
+    font-weight: 500;
+}
+#clientQuote{
+    margin: auto;
+    margin-bottom: 50px;
+    width: 62%;
+    color: #777;
+    line-height: 40px;
+    font-family: "Roboto", "Helvetica", "Sans-serif";
+    font-size: 24px;
+    font-style: italic;
+}
+.clientInfo{
+    display: flex;
+    justify-content: center;
+}
+#photo{
+    margin-right: 20px;
+    width: 60px;
+    border-radius: 30px;
+}
+.clientName{
+    color: #777;
+    font-family: "Roboto", "Helvetica", "Sans-serif";
+    font-size: 18px;
+}
+
+.contact{
+    background-color: #f8f9fa;
+    width: 100%;
+    height: auto;
+    padding: 50px 0px;
+    text-align: center;
+}
+.contact h2{
+    margin-bottom: 40px;
+    color: #f69314;
+    font-size: 50px;
+    font-weight: 500;
+}
+.contactContainer{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.contactForm{
+    background-color: white;
+    padding: 50px;
+    width: 60%;
+    height: auto;
+    text-align: left;
+}
+.contactForm h3{
+    margin-bottom: 30px;
+    font-size: 24px;
+    font-weight: 300;
+}
+.contactForm label{
+    margin-bottom: 5px;
+    display: block;
+    font-family: "Roboto", "Helvetica", "Sans-serif";
+    font-size: 16px;
+}
+.contactForm input{
+    margin-bottom: 20px;
+    width: 100%;
+    border: 1px solid #ced4da;
+    border-radius: 30px;
+}
+.contactForm input[type=text]{
+    padding: 15px;
+    color: #495057;
+    font-family: "Roboto", "Helvetica", "Sans-serif";
+    font-size: 16px;
+}
+.contactForm textarea{
+    resize: none;
+    margin-bottom: 20px;
+    padding: 15px;
+    width: 100%;
+    height: 170px;
+    border: 1px solid #ced4da;
+    border-radius: 30px;
+    font-family: "Roboto", "Helvetica", "Sans-serif";
+    font-size: 16px;
+}
+.contactForm input[type=textarea]{
+    color: #495057;
+}
+#sendMessage{
+    background-color: #f69314;
+    width: 160px;
+    height: 40px;
+    color: white;
+    border-color: transparent;
+    border-radius: 50px;
+    font-family: "Roboto", "Helvetica", "Sans-serif";
+    font-size: 16px;
+    font-weight: 300;
+}
+.contactInformation{
+    background-color: white;
+    padding: 25px;
+    width: 35%;
+    height: 280px;
+    text-align: left;
+}
+.contactInformation h3{
+    margin-bottom: 10px;
+    color: #777;
+    font-family: "Roboto", "Helvetica", "Sans-serif";
+    font-size: 16px;
+}
+.contactInformation p{
+    margin-bottom: 30px;
+    color: #777;
+    font-family: "Roboto", "Helvetica", "Sans-serif";
+    font-size: 16px;
+}
+.contactInformation a{
+    text-align: left;
+    text-decoration: none;
+    color: #f69314;
+}
+.contactInformation a:hover{
+    text-decoration: underline;
+}
+
+footer{
+    padding: 35px 160px;
+    background-color: #333;
+    color: #777;
+}
+footer h4{
+    margin-bottom: 20px;
+    color: white;
+    font-size: 18px;
+    font-weight: 300;
+}
+.footerContainer1{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 70px;
+    width: 100%;
+    border-bottom: 1px solid white;
+}
+.footerAbout{
+    margin-right: 20px;
+    width: 25%;
+    line-height: 25px;
+}
+.footerAbout p{
+    font-family: "Roboto", "Helvetica", "Sans-serif";
+    font-size: 16px;
+}
+.footerQuickLinks{
+    width: 20%;
+}
+.footerQuickLinks ul{
+    list-style-type: none;
+    font-family: "Roboto", "Helvetica", "Sans-serif";
+    font-size: 16px;
+}
+.footerQuickLinks li{
+    margin-bottom: 15px;
+}
+.footerQuickLinks a{
+    color: #777;
+    text-decoration: none;
+    transition: color 0.4s;
+}
+.footerQuickLinks a:hover{
+    color: white;
+}
+.footerNewsFollow{
+    width: 30%;
+}
+#newsletterText{
+    background-color: transparent;
+    margin-bottom: 20px;
+    padding: 15px;
+    border: 1px solid #ced4da;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    font-family: "Roboto", "Helvetica", "Sans-serif";
+    font-size: 16px;
+}
+#newsletterButton{
+    background-color: #f69314;
+    margin-left: -30px;
+    margin-bottom: 20px;
+    padding: 15px;
+    border: 1px solid #ced4da;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    transition: background-color 0.4s;
+}
+#newsletterButton:hover{
+    background-color: white;
+}
+#smallIcon{
+    margin-right: 20px;
+}
+#smallIcon:hover{
+    color: white;
+}
+.footerContainer2{
+    margin: 70px 0px;
+    text-align: center;
+    font-family: "Roboto", "Helvetica", "Sans-serif";
+    font-size: 16px;
+}
+.footerContainer2 a{
+    color: #777;
+    text-decoration: none;
+    transition: color 0.4s;
+}
+.footerContainer2 a:hover{
+    color: white;
+}
